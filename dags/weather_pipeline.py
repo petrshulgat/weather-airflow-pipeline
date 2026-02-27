@@ -67,7 +67,7 @@ def fetch_and_insert_weather():
 with DAG(
     dag_id="weather_pipeline",
     start_date=datetime(2026, 2, 27),
-    schedule_interval="@hourly",
+    schedule_interval="@daily",
     catchup=False
 ) as dag:
     task_fetch_weather = PythonOperator(
