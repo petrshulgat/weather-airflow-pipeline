@@ -4,7 +4,7 @@ from datetime import datetime
 import requests
 import psycopg2
 
-API_KEY = "b1ae9fbe5bcb42198dc211124262702"
+API_KEY = "..."
 
 CITIES = [
     {"name": "Tokyo", "country": "Japan", "lat": 35.6895, "lon": 139.6917},
